@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="project.css">
+
+
+</head>
+<body>
+
+
+    
+    <nav class="navbar navbar-expand-md">
+
+        
+
+
+        <ul class="navbar-nav ">
+
+
+
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-danger"> <i class="fas fa-hotel"></i></a>
+           </li>
+
+
+        <li class="nav-item">
+            <a href="#" class="nav-link text-danger ">Home</a>
+       </li>
+
+
+            <li class="nav-item">
+                 <a href="#rooms" class="nav-link text-dark ">Rooms</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about" class="nav-link text-dark ">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark ">Service</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark ">Reviews</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark ">Policies</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark ">FAQ</a>
+            </li>
+
+
+
+
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark"  id="send">Send Feedback</a>
+            </li>
+
+
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark ">Contact  &emsp;  <i class="fas fa-search">Search</i> </a>
+            </li>
+
+
+            &emsp;
+
+            <button type="button" class="btn btn-warning btn-lg"  id="booknow">Book Now</button>
+
+
+        </ul>
+
+
+
+    </nav>
+
+
+
+
+
+
+
+    <fieldset>
+      
+        
+        
+    
+    <table align="center" cellpadding="40" border="2">
+
+      
+        <tr>
+            <th colspan="2"> <h2>Enter details </h2></th>
+            <td> (1) Guest Details &emsp;  (2) Payment Detals</td>
+        </tr>
+
+       <hr>
+        <tr>
+            <td></td>
+            <th><h3>&emsp;  Guest Details</h3></th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> Title (Mr/Mrs) 
+                <input type="text" name="title">
+            </td>
+
+            <td> First Name *
+                <input type="text" name="first_name">
+            </td>
+
+            <td> Last Name *
+                &emsp;&emsp;<input type="text" name="last_name">
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td> Email *  
+                &emsp;&emsp;&emsp;<input type="email" name="email">
+            </td>
+
+            <td> Country *
+                &emsp;<input type="text" name="country" placeholder="India ">
+            </td>
+
+            <td> Phone Number *
+                <input type="number" name="p_number">
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td>ADDRESS *
+            <textarea rows="3" cols="30"></textarea>
+            </td>
+        
+        
+        
+            <td>CITY *
+            &emsp;&emsp;<input type="text" maxlength="30"> </td>
+        
+        
+        
+            <td>PIN CODE * 
+                &emsp; <input type="text" maxlength="6">
+            </td>
+        
+        
+        <tr>
+            
+
+            <th >Gst Number
+                <input type="number" name="Gst_number">
+            </th>
+
+
+            <th colspan="2">
+                <h6>Special Requests *
+
+                <textarea name="special_requests" rows="3" cols="80"></textarea>
+            </h6>
+        </th>
+
+
+        </tr>
+
+
+        <tr>
+            <th><a href="" target="_blank" class="btn btn-primary btn-lg">Click Here To Pay</a>
+            </th>
+        </tr>
+
+       
+
+
+    </table>
+
+
+</fieldset>
+   
+  
+    
+</body>
+</html>

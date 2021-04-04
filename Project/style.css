@@ -1,0 +1,1136 @@
+
+
+/*
+header{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.97), rgba(0,0,0,0.1)), linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)),linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(../imgs/wall.jpg);
+    height: 100vh;
+}
+*/
+
+
+/*
+
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.nbtn{
+    line-height: normal;
+    margin-top: 25px;
+    margin-right: 2%;
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 3%;
+    font-size: 20px;
+}
+.search{
+    height: 25px;
+    width: 15rem;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.nbtn:hover{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+}
+
+nav a.logo{
+    display: inline-block;
+    line-height: 90px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: 700;
+}
+
+*/
+
+/*// HTML
+<header>
+        <nav>
+            <a class="logo" href="#">Binge Hub</a>
+            <a class ="nbtn" href="#">Movies</a>
+            <a class ="nbtn" href="#">Web Shows</a>
+            <a class ="nbtn" href="#">New & Popular</a>
+            <a class ="nbtn" href="#">Watchlist</a>
+            <input type="text" class="search" placeholder="Search Videos">
+            
+        </nav>
+
+        <section class="cs">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/imgs/tandav.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/imgs/red.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/imgsrousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/imgs/tandav.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/imgs/red.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/imgsD2.jpg" alt="Third slide">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+    </header>*/
+
+
+
+
+
+
+
+
+    /* @media only screen and (max-width: 572px) {    
+        #bars-container{
+            display: block;
+        }
+        
+        
+        #navbar{
+            display: none;
+        } 
+    }
+    
+    
+    
+    @media only screen and (min-width: 572px) {
+    
+        .bars-container{
+            display: none;
+        }
+    
+       
+    
+    } */
+
+/*     
+.bars-container{
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+ */
+
+
+
+/* 
+.bars-container:hover #navbar{
+    display: inline-block;
+    position: absolute; 
+}
+
+*/
+    
+
+
+
+
+    
+
+
+
+/* 
+.bars-container{
+    cursor: pointer;
+} */
+
+
+
+#body{
+    position:relative;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+
+    
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+#scrollpath{
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+    height:100px;
+
+    z-index: 1;
+
+    background: rgba(255,255,255,0.05);
+}
+
+
+
+#progressbar{
+
+    position: fixed;
+    top:0;
+    right:0;
+    width:10px;
+
+    z-index: 2;
+
+    /* height:100%; */
+
+    background: linear-gradient(to top , #008aff,#00ffe7);
+
+    animation: animate 5s linear infinite;
+}
+
+
+
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+
+    50%{
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+
+
+#progressbar::before{
+
+    content: "";
+
+    position: absolute;
+    top:0;
+
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background: linear-gradient(to top , #008aff,#00ffe7);
+
+    filter: blur(20px);
+
+
+}
+
+
+
+
+
+#progressbar::after{
+
+    content: "";
+
+    position: absolute;
+    top:0;
+
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background: linear-gradient(to top , #008aff,#00ffe7);
+
+    filter: blur(20px);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#front{
+    position: relative;
+}
+
+
+#trip-ad{
+    position:absolute;
+    bottom: 7%;
+    right: 5%;
+}
+
+
+
+
+
+
+#button{
+    background-color: black;
+}
+
+#about{
+    width:100%;
+    height: 10%;
+    position: relative;
+}
+
+
+#aboutimg{
+    width:1040px;
+    height:450px;
+    margin-left: 70px;
+    margin-bottom: 350px;
+
+}
+
+
+
+#pay{
+    background-color:rgb(26, 111, 207);
+
+}
+
+
+#over:hover{
+    color:red;
+    /* background-color: red; */
+}
+
+#Reviews{
+    margin-top: -250px;
+}
+
+#faq{
+    width:100%;
+    height:400px;
+    margin-top: 150px;
+    margin-bottom: 500px;
+
+    padding: 100px;
+}
+
+
+
+.box{
+    width:440px;
+    height:475px;
+    box-shadow:5px 5px 20px #000;
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+
+}
+
+.top{
+    width:100%;
+    height:65px;
+    background: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+.top h1{
+    margin:0px;
+    font-size: 30px;
+    color:#fff;
+    padding-top: 10px;
+    text-align: center;
+    font-family:monospace;
+}
+
+
+.mid{
+    width: 100%;
+    height: 310px;
+    background:rgb(5, 252, 190);
+}
+
+#chatlog{
+    width:100%;
+    height:210px;
+    margin-top:5px;
+    background-color:black;
+    color:white;
+}
+
+
+
+
+
+
+
+#img-text{
+    width:80vw;
+    height: 90vh;
+    border: 2px solid black;
+    position: relative;
+    left: 7%;
+}
+
+
+
+
+
+
+#img-trip{
+    position: absolute;
+    left: 0%;
+   
+
+}
+
+
+#text{
+    position: absolute;
+    left:25%;
+    margin: 2%;
+
+}
+
+#spots{
+    
+    position: relative;
+    width:100vw;
+    height:90vh;
+
+    margin-top: 38vh;
+    margin-bottom: 20vh;
+
+    
+}
+
+
+
+#spots-btn{
+    text-align: center;
+    position: absolute;
+    left:40%;
+    top:-5%;
+    z-index: 2;
+}
+
+
+
+
+#trip-addd{
+
+    position: absolute;
+    /* top:20%; */
+    bottom: 3%;
+    left:14%;
+    display: inline-block; 
+}
+
+
+#holiday-check{
+    position: absolute;
+    /* top:20%; */
+
+    bottom: 3%;
+
+    left:39%;
+     display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#card_lock{
+    position:relative;
+
+    width:initial;
+    height: intial;
+
+    top:-20px;
+
+
+
+}
+
+
+#lock{
+    position: absolute;
+
+
+    font-size: 450px;
+
+    opacity: 0.6;
+
+    bottom: 25%;
+    
+}
+
+
+
+#down_arrow{
+    font-size:40px;
+    color:red;
+}
+
+
+
+#lock_details{
+    width:150px;
+    height:45px;
+
+    font-size: 26px;
+
+     padding-bottom: 20px;
+
+     position: absolute;
+
+     right:0%;
+
+} 
+
+
+
+
+
+
+#pro_unlock{
+    width:200px;
+    height:50px;
+
+    font-size: 29px;
+
+     padding-bottom: 23px;
+
+     position: absolute;
+
+     left:1%;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#recco{
+    position: absolute;
+    /* top:20%; */
+    bottom: 3%;
+    right:17%;
+     display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+
+#bot{
+    width:150px;
+    height:80px;
+
+    position:fixed;
+
+    text-align:center;
+    padding-right: 3px;
+
+    z-index: 4;
+
+    right:0.5%;
+
+}
+
+#commonfaq{
+    visibility: hidden;
+}
+
+#close{
+    width:38px;
+    height: 38px;
+    position: fixed;
+    text-align: center;
+    padding: 3px;
+    z-index: 3;
+    right:0.5%;
+    top: 4.5%;
+    
+}
+
+
+#cancel{
+    width:100%;
+    border-radius: 23px;
+}
+
+
+
+#wifi{
+    width:90px
+}
+
+#spa{
+    width:77px
+}
+
+
+#offer{
+    width:77px
+}
+
+
+#fitness{
+    width:180px
+}
+
+
+.bottom{
+    background-color:grey;
+}
+
+
+#write{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    text-align: center;
+}
+
+
+#resort-text{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    font-size: 1.3em;
+}
+
+
+
+
+#resort{
+    margin-top: 250px;
+}
+
+
+#offers-text{
+
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    font-size: 3.1em;
+    letter-spacing: 1.6px;
+    text-align: center;
+
+}
+
+
+
+
+#offers{
+    margin-top: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#final{
+    background-color: #091921;
+  
+    width:90vw;
+    height:90vh;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+  
+  
+    position:relative;
+
+    margin:auto
+
+    /* overflow: scroll; */
+  }
+  
+  
+  
+  
+  footer{
+      padding-bottom:20em;
+      padding-top:40px;
+      background-size:100%;
+      color:white;
+      }
+      
+      .box h2{
+      text-transform:uppercase;
+      font-family: 'Shadows Into Light', cursive;
+      font-size:25px;
+      color:wheat;
+      
+      
+      }
+      .box2 h2 {
+      text-transform:uppercase;
+      font-family:'Shadows Into Light', cursive;
+      font-size:25px;
+      
+      }
+      .main{
+      float:left;
+      margin-left:10em;
+      padding:20px;
+  
+      /* border: 1px solid black; */
+  
+      height:90vh;
+  
+      position: relative;
+      left: -100px;
+      
+      }
+      
+      .box p{
+      font-family:'Shadows Into Light', cursive;
+      font-size: 20px;
+      }
+      .box2 p{
+      font-family:'Shadows Into Light', cursive;
+      font-size:20px;
+      }
+      div iframe{
+        margin-left:7em;
+        padding-right:10px;
+        height: 300px !important;
+        width: 300px !important;
+      }
+      
+  
+  
+  
+  
+  
+  /*  after updating.....*/
+  
+  
+  #write-golden-galaxy{
+    position: absolute;
+    top:4%;
+    left:70%;
+    opacity: 0.8;
+  }
+  
+
+
+#enquire{   
+    margin-top:6%;
+  
+  }
+  
+  
+  #map{
+    position: absolute;
+    top:4%;
+  
+  }
+  
+  #enquire{
+    position: absolute;
+  
+    top:50%;
+    left:40%;
+
+    font: 15px Arial, sans-serif;
+  }
+  
+  
+  .text{
+  
+    color:white
+  }
+  
+  
+  
+  .box2{
+    position: absolute;
+    right:1%;
+    top:3%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Enquire   contact session linking..........*/
+
+
+
+
+
+
+
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background:url(https://i1.wp.com/www.agoda.com/wp-content/uploads/2019/11/Burbury-Hotel-black-and-white-theme-hotels-1200.jpg?ssl=1);
+	background-size: cover;
+}
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+.contact .content p{
+	font-weight: 300;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.container .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+
+}
+.container .contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.container .contactInfo .box .text{
+	display: flex;
+	margin-left:30px; 
+	font-size:16px;
+	color: #fff ;
+	flex-direction: column;
+	font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+	font-weight: 500;
+	color: #00bcd4;
+}
+.contactForm{
+	width:40%;
+	padding: 40px;
+	background: #fff;
+}
+.contactForm h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%; 
+	margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+.contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+@media (max-width: 991px){
+	.contact{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.container .contactInfo{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*heading -contact  */
+
+
+
+#heading-contact{
+    background-color: #091921;
+
+    margin:auto;
+
+    text-align: center;
+    font-size: 3em;
+
+    margin-bottom: 1px;
+
+    font-style: italic;
+
+    letter-spacing: 5px; 
+
+
+        
+    animation-name:color;
+    animation-duration: 5s;
+
+    animation-iteration-count:infinite;
+            
+    animation-direction: alternate;      /* from - to , to - from */
+}
+
+
+
+
+
+
+@keyframes color{
+
+    0%{
+        
+    color:greenyellow;
+    }
+
+       
+    15%{
+        color:magenta;
+    }
+
+
+    25%{
+        color:rgb(228, 225, 41);
+    }
+
+    40%{
+        color:rgb(24, 209, 200);
+    }
+
+
+    65%{
+        color:rgb(94, 255, 0);
+    }
+
+    85%{
+        color:hotpink
+}
+
+
+    100%{
+        color:aqua;
+    }
+}
